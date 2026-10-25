@@ -1,0 +1,22 @@
+# Copy to dev.properties; the copy is ignored.
+app.base.url=https://app.example.test
+frontend.base.url=https://app.example.test
+api.base.url=https://api.example.test
+login.path=/login
+browser=chromium
+headless=true
+slowmo=0
+timeout.ms=30000
+viewport.width=1440
+viewport.height=900
+data.cleanup=true
+surgeon.creates.directly=true
+operating.surgeon.name=Example User
+surgeon.email=surgeon@example.test
+surgeon.password=SET_LOCALLY
+hospitaladmin.email=hospital-admin@example.test
+hospitaladmin.password=SET_LOCALLY
+healthcareadmin.email=admin@example.test
+healthcareadmin.password=SET_LOCALLY
+superadmin.email=superadmin@example.test
+superadmin.password=SET_LOCALLY

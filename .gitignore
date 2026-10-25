@@ -1,0 +1,10 @@
+target/
+.idea/
+*.iml
+src/test/resources/config/*.properties
+allure-results/
+allure-report/
+screenshots/
+traces/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  Module-oriented suite. Each <test> maps to a QA document module.
+  Modules are added here as their test classes are implemented.
+-->
+<suite name="HMS QA Suite" parallel="false" verbose="1">
+
+    <listeners>
+        <listener class-name="com.portfolio.healthcare.qa.listeners.PatientCleanupListener"/>
+    </listeners>
+
+    <test name="Module 1 - Authentication">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.auth"/>
+        </packages>
+    </test>
+
+    <test name="Module 2 - Patient &amp; Surgery">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.patients"/>
+        </packages>
+    </test>
+
+    <test name="Module 3 - Clinical Follow-Ups">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.followups"/>
+        </packages>
+    </test>
+
+    <test name="Module 4 - Blood Investigations">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.labs"/>
+        </packages>
+    </test>
+
+    <test name="Module 5 - Bulk Data Import">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.imports"/>
+        </packages>
+    </test>
+
+    <test name="Module 6 - Dashboards &amp; Analytics">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.dashboards"/>
+        </packages>
+    </test>
+
+    <test name="Module 7 - Data Export">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.exports"/>
+        </packages>
+    </test>
+
+    <test name="Module 8 - Helpline &amp; Support">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.helpline"/>
+        </packages>
+    </test>
+
+    <test name="Module 9 - Admin &amp; Multi-Tenant">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.admin"/>
+        </packages>
+    </test>
+
+    <test name="Module 10 - Legal &amp; Compliance">
+        <packages>
+            <package name="com.portfolio.healthcare.qa.tests.legal"/>
+        </packages>
+    </test>
+
+</suite>
