@@ -1,4 +1,4 @@
-# Playwright Java Healthcare Registry Tests
+# Healthcare Registry Test Automation Framework
 
 A Java Playwright/TestNG framework for a private multi-role records and compliance application. The code shows page objects, API setup/cleanup, role-aware sessions, dashboards, imports, exports, and reporting without publishing the application or its data.
 
